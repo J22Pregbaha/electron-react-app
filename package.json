@@ -47,7 +47,8 @@
     "wait-on": "^8.0.1"
   },
   "build": {
-    "appId": "com.example.electron-react-app",
+    "appId": "com.mycustomapp.app",
+    "productName": "My Custom App",
     "files": [
       "build/**/*",
       "node_modules/**/*",
@@ -55,6 +56,15 @@
     ],
     "directories": {
       "buildResources": "assets"
+    },
+    "win": {
+      "icon": "public/logo512.png"
+    },
+    "mac": {
+      "icon": "public/logo512.png"
+    },
+    "linux": {
+      "icon": "public/logo512.png"
     }
   }
 }

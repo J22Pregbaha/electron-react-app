@@ -7,6 +7,7 @@ function createWindow(isDev) {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    icon: path.join(__dirname, '..', 'build', 'favicon.ico'),
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
