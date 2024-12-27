@@ -1,6 +1,6 @@
 {
-  "short_name": "Electron React App",
-  "name": "Electron React App Sample",
+  "short_name": "My Custom App",
+  "name": "My Custom App Sample",
   "icons": [
     {
       "src": "favicon.ico",

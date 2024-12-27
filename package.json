@@ -1,5 +1,5 @@
 {
-  "name": "electron-react-app",
+  "name": "my-custom-app",
   "version": "0.1.0",
   "private": true,
   "main": "./public/electron.js",
